@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstchild</title>
+    <style>
+        #ul1 li{
+            float: left;
+
+            width: 60px;
+            margin-right: 50px;
+            border-right: darkgreen 2px solid;
+        }
+        #ul1 li:last-child{
+            border: none;
+        }
+        #ul1 li:nth-child(2){
+            color: red
+        };
+        #div1 p:nth-of-type(2){
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1">
+    <div>div1</div>
+    <p>p1</p>
+    <div>div2</div>
+    <p>p2</p>
+    <p>p3</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css选择器</title>
+    <style>
+      
+        /* *代表全部可视元素选中 ,通配符通配符通配符*/
+        h1 {
+            background-color: darkmagenta;
+        }
+
+        /* 标签选择器对应用的标签的全部作用 */
+        #haha {
+            color: greenyellow;
+        }
+
+        .banji {
+            background-color: hotpink;
+        }
+
+        #div1 p {
+            color: yellow;
+        }
+        #div1>p{
+            color: tomato;
+        }
+        #div1+h2{
+            background-color: thistle;
+         
+        }
+        #div1~h2{
+            background-color: yellow;
+        }
+        input[name] {
+            background-color: violet;
+        }
+        input[name="password"]{
+            border: turquoise 5px;
+
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <h1>我还是标题1</h1>
+    <h1 id="haha">我是11哦</h1>
+    <h2>我是标题2</h2>
+    <ul>
+        <li class="banji">itenm1</li>
+        <li>itenm2</li>
+        <li class="banji">itenm3</li>
+    </ul>
+    <h2>666</h2>
+    <div id="div1">
+        <p>pppppppppppppppp</p>
+        <div>
+            <p>p2p2p2p2p2p</p>
+        </div>
+    </div>
+   
+    <h2>888</h2>
+    <h2>777</h2>
+
+    <input type="text" name="username">
+    <input type="text" name="password" value="222256665">
+</body>
+
+</html>
