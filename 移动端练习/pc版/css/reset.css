@@ -1,0 +1,29 @@
+*
+ {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font: 14px "HanHei SC", "PingFang SC", "Avenir Next", Avenir, "Helvetica Neue", Helvetica, "Lantinghei SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+  }
+  
+  button {
+    font: 14px "HanHei SC", "PingFang SC", "Avenir Next", Avenir, "Helvetica Neue", Helvetica, "Lantinghei SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+   
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
